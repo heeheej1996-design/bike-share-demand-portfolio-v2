@@ -1,0 +1,16 @@
+{
+  "selected_model": "XGBoost",
+  "selection_note": "08 월블록 CV 에서 선형회귀와 동점. 최종 목표 지표인 2016 예측 성능으로 선택 (테스트 정보가 선택에 반영된 절차 — REPORT 한계 참조)",
+  "cv": "GroupKFold(6, groups=month)",
+  "cv_r2": 0.4695567985375722,
+  "n_candidates": 288,
+  "best_params": {
+    "colsample_bytree": 1.0,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 300,
+    "reg_lambda": 1.0,
+    "subsample": 0.8
+  }
+}

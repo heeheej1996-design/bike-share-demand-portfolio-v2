@@ -1,0 +1,34 @@
+{
+  "model": "XGBRegressor",
+  "params": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42
+  },
+  "feature_cols": [
+    "season",
+    "yr",
+    "mnth",
+    "holiday",
+    "weekday",
+    "workingday",
+    "weathersit",
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed"
+  ],
+  "target": "cnt",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "test_metrics": {
+    "r2": 0.9039977788925171,
+    "rmse": 620.4495094284466,
+    "mae": 410.13006591796875
+  }
+}

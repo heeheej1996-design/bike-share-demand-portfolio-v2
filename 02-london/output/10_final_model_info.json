@@ -1,0 +1,47 @@
+{
+  "model": "XGBRegressor",
+  "params": {
+    "colsample_bytree": 1.0,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_child_weight": 1,
+    "n_estimators": 300,
+    "reg_lambda": 1.0,
+    "subsample": 0.8,
+    "random_state": 42
+  },
+  "feature_cols": [
+    "season",
+    "mnth",
+    "holiday",
+    "weekday",
+    "workingday",
+    "is_weekend",
+    "weather_code",
+    "t1",
+    "t2",
+    "hum",
+    "wind_speed",
+    "is_christmas"
+  ],
+  "target": "cnt",
+  "train": {
+    "file": "data/london_daily_2015.csv",
+    "n_days": 355,
+    "coverage_min": 0.9,
+    "outlier_strategy": "C 클리핑"
+  },
+  "test": {
+    "file": "data/london_daily_2016.csv",
+    "n_days": 365
+  },
+  "cv": {
+    "method": "GroupKFold(6, groups=month)",
+    "r2": 0.4695567985375722
+  },
+  "test_metrics": {
+    "R2": 0.793296754360199,
+    "RMSE": 3962.9383038346687,
+    "MAE": 2941.0546875
+  }
+}
