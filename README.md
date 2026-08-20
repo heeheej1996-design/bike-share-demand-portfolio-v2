@@ -21,7 +21,7 @@
 | 폴더 | 대상 | 데이터 | 상태 | 핵심 결과 |
 |---|---|---|---|---|
 | [`01-washington/`](01-washington/) | Capital Bikeshare (워싱턴 D.C.) | UCI Bike Sharing Dataset, 2011–2012 일별 731일 | ✅ 완료 | 튜닝 XGBoost로 일일 대여량 예측, 테스트 **R² 0.904** |
-| [`02-london/`](02-london/) | Santander Cycles (런던) | London Bike Sharing, 2015–2016 일별 727일 (시간별 17,414행에서 집계) | ✅ 완료 | 2015년 학습 → 2016년 예측, 테스트 **R² 0.763** (완전 시간 분리) |
+| [`02-london/`](02-london/) | Santander Cycles (런던) | London Bike Sharing, 2015–2016 일별 727일 (시간별 17,414행에서 집계) | ✅ 완료 | 2015년 학습 → 2016년 예측, 테스트 **R² 0.7933** (완전 시간 분리) |
 
 각 폴더의 `README.md`에 그 분석의 요약과 재현 방법이, `REPORT.md`에 상세 서술이 있습니다.
 
