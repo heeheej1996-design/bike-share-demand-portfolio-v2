@@ -92,12 +92,12 @@
 
 ```bash
 # (A) git으로 받는 경우
-git clone <this-repo-url>
-cd bike-share-demand-portfolio
+git clone https://github.com/heeheej1996-design/bike-share-demand-portfolio-v2.git
+cd bike-share-demand-portfolio-v2
 
 # (B) GitHub에서 ZIP으로 받은 경우 — clone 불필요, 압축만 풀면 됩니다
-unzip bike-share-demand-portfolio-main.zip
-cd bike-share-demand-portfolio-main
+unzip bike-share-demand-portfolio-v2-main.zip
+cd bike-share-demand-portfolio-v2-main
 
 # 패키지는 저장소 루트의 requirements.txt 하나로 공용
 python3 -m pip install -r requirements.txt
@@ -159,7 +159,7 @@ python3 scripts/12_without_yr_comparison.py
 저장소는 분석 대상별로 폴더가 나뉘어 있고, 이 문서는 그중 `01-washington/`을 다룹니다.
 
 ```
-bike-share-demand-portfolio/
+bike-share-demand-portfolio-v2/
 ├── requirements.txt                   # 두 분석 공용 (고정 버전 6개)
 ├── .gitignore
 ├── 02-london/                         # 런던 데이터셋 분석 (예정)

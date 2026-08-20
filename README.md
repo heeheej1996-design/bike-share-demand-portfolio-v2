@@ -14,7 +14,7 @@
 ## 폴더 구조
 
 ```
-bike-share-demand-portfolio/
+bike-share-demand-portfolio-v2/
 ├── README.md              # 이 문서 (저장소 안내)
 ├── requirements.txt       # 모든 분석 공용 패키지 (버전 고정)
 ├── .gitignore
