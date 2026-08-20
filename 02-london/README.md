@@ -229,4 +229,4 @@ pred = model.predict(df[info["feature_cols"]])   # feature_cols 순서를 반드
 ## 데이터 출처 및 라이선스
 
 - **데이터**: London Bike Sharing Dataset — Transport for London(TfL) 공개 자전거 대여 기록과 freemeteo.com 기상 데이터를 결합한 것으로, Kaggle에 공개된 `london_merged.csv`를 그대로 포함했습니다. TfL 원자료는 [Powered by TfL Open Data](https://tfl.gov.uk/info-for/open-data-users/) 조건을 따릅니다.
-- **코드**: 저장소 루트에 `LICENSE` 파일이 없습니다. 재배포가 필요하면 라이선스를 추가하는 것을 권장합니다.
+- **코드**: 저장소 루트의 [`LICENSE`](../LICENSE)(MIT)를 따릅니다. 데이터셋 자체의 라이선스는 별도이니(위 항목) 코드와 혼동하지 마세요.

@@ -162,7 +162,7 @@ python3 scripts/12_without_yr_comparison.py
 bike-share-demand-portfolio-v2/
 ├── requirements.txt                   # 두 분석 공용 (고정 버전 6개)
 ├── .gitignore
-├── 02-london/                         # 런던 데이터셋 분석 (예정)
+├── 02-london/                         # 런던 데이터셋 분석 (완료)
 └── 01-washington/                     # ← 이 문서가 설명하는 분석
     ├── README.md                      # 이 문서 (요약 + 재현 방법)
     ├── REPORT.md                      # 상세 분석 리포트 (수치 해석 중심)
@@ -235,4 +235,4 @@ Python 3.9.6 · pandas 2.3.3 · numpy 2.0.2 · scikit-learn 1.6.1 (LinearRegress
 ## 데이터 출처 및 라이선스
 
 - **데이터**: [UCI Machine Learning Repository — Bike Sharing Dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) (Fanaee-T, H. & Gama, J., 2013, *Event labeling combining ensemble detectors and background knowledge*, Progress in Artificial Intelligence). 원본 배포본의 `day.csv`(일별 집계)를 그대로 포함했습니다. 같은 데이터셋의 `hour.csv`(시간별)는 **이 프로젝트에서 사용하지 않으며 포함되어 있지 않습니다.**
-- **코드**: 이 저장소에는 아직 `LICENSE` 파일이 없습니다. 재사용 조건이 명시되지 않은 상태이므로, 공개 재배포가 필요하다면 라이선스를 추가하는 것을 권장합니다.
+- **코드**: 저장소 루트의 [`LICENSE`](../LICENSE)(MIT)를 따릅니다. 데이터셋 자체의 라이선스는 별도이니(위 항목) 코드와 혼동하지 마세요.
